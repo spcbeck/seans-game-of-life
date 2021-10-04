@@ -1,0 +1,7 @@
+button, .btn {
+    padding: .5rem 1rem;
+}
+
+.btn-block {
+    display: block;
+}

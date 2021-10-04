@@ -1,0 +1,6 @@
+section.controls {
+    background-color: rgba(249,249,249);
+    flex-shrink: 1;
+    width: 196px;
+    padding: 1rem;
+}
