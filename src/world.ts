@@ -15,19 +15,19 @@ export interface WorldOptions {
 
 export type Board = Cell[][]; 
 
-type PatternType = 'still-life' | 'oscillator' | 'spaceship';
+// type PatternType = 'still-life' | 'oscillator' | 'spaceship';
 
-type PatternName = string;
+// type PatternName = string;
 
 interface Pattern {
     [key: string]: [number, number][]
 }
 
-enum PatternTypes {
-    'still-life',
-    'oscillator',
-    'spaceship',
-}
+// enum PatternTypes {
+//     'still-life',
+//     'oscillator',
+//     'spaceship',
+// }
 
 const PATTERNS: Pattern = {
     'block': [[0,0],[0,1],[1,1],[1,0]],

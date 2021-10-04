@@ -73,7 +73,7 @@ const reset = () => {
   createBoard(world);
 }
 
-(document.getElementById('reset') as HTMLElement).addEventListener('click', e => {
+(document.getElementById('reset') as HTMLElement).addEventListener('click', () => {
   reset();
 })
 
