@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-    base: 'seans-game-of-life'
+    base: '/seans-game-of-life/'
 })
