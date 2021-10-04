@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.17e50649.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" crossorigin src="/assets/index.8030f8a0.js"></script>
+    <link rel="stylesheet" href="/assets/index.2fbb4f3d.css">
+  </head>
+  <body>
+    <main class="game-container">
+      <div class="canvas-container">
+        <canvas id="game" width="800" height="800"></canvas>
+      </div>
+      <section class="controls">
+        <div class="form-group">
+          <label>Canvas Width</label>
+          <input id="canvasWidth" type="number" value="800" />
+        </div>
+        <div class="form-group">
+          <label>Canvas length</label>
+          <input id="canvasHeight" type="number" value="800" />
+        </div>
+        <div class="form-group">
+          <label>Cell Square Size</label>
+          <input id="cellSize" type="number" value="10" />
+        </div>
+
+        <div class="form-group">
+          <label>Cell Color</label>
+          <input type="color" id="cellColor" value="#64f096">
+        </div>
+
+        <button id="reset">Reset</button>
+      </section>
+    </main>
+    
+  </body>
+</html>
